@@ -12,7 +12,6 @@ public class HandleFreamDemo {
 	@Test
 	public void test() throws Exception
 	{
-		
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\dude\\Downloads\\geckodriver-v0.20.0-win64\\geckodriver.exe");
 
 		WebDriver driver=new FirefoxDriver();
