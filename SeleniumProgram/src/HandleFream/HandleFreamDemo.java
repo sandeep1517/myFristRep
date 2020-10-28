@@ -14,6 +14,8 @@ public class HandleFreamDemo {
 	{
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\dude\\Downloads\\geckodriver-v0.20.0-win64\\geckodriver.exe");
 
+		System.out.println("Hi");
+		
 		WebDriver driver=new FirefoxDriver();
 		
 		driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.SECONDS);
