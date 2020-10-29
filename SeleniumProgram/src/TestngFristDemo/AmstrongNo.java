@@ -20,6 +20,14 @@ public class AmstrongNo {
 		while(num!=0)
 		{
 			arm=num%10;
+		
+			
+			
+			
+			
+			
+			
+			
 			
 		}
 	
