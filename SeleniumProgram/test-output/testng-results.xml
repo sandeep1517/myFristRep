@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29394" started-at="2020-10-26T06:13:29Z" finished-at="2020-10-26T06:13:58Z">
+  <suite name="Suite" duration-ms="48204" started-at="2020-11-10T19:10:32Z" finished-at="2020-11-10T19:11:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29394" started-at="2020-10-26T06:13:29Z" finished-at="2020-10-26T06:13:58Z">
-      <class name="HandleFream.HandleFreamDemo">
-        <test-method status="PASS" signature="test()[pri:0, instance:HandleFream.HandleFreamDemo@5442a311]" name="test" duration-ms="29339" started-at="2020-10-26T11:43:29Z" finished-at="2020-10-26T11:43:58Z">
+    <test name="Test" duration-ms="48204" started-at="2020-11-10T19:10:32Z" finished-at="2020-11-10T19:11:21Z">
+      <class name="TestngFristDemo.VerfyTittel">
+        <test-method status="FAIL" signature="Verfy()[pri:0, instance:TestngFristDemo.VerfyTittel@5b84c0]" name="Verfy" duration-ms="48121" started-at="2020-11-11T00:40:32Z" finished-at="2020-11-11T00:41:21Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[junit/framework/Assert]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: junit/framework/Assert
+	at TestngFristDemo.VerfyTittel.Verfy(VerfyTittel.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.TestNG.privateMain(TestNG.java:1425)
+	at org.testng.TestNG.main(TestNG.java:1394)
+Caused by: java.lang.ClassNotFoundException: junit.framework.Assert
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- HandleFream.HandleFreamDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Verfy -->
+      </class> <!-- TestngFristDemo.VerfyTittel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
